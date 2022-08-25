@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property=“og:title” content=“녹실(NOKSIL)” />
+        <meta property=“og:description” content=“#디지털아트디자이너 #포트폴리오” />
+        <meta property=“og:image” content=“bgd07.jpg” />
+        
+        <title>녹실(NOKSIL)</title>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+            * {
+                font-family: 'Nanum Gothic Coding', monospace;
+            }
+            body {
+                height: 100vh;
+                background-size:cover;
+                background-image: url('bgd07.jpg');
+                background-position: center;
+               
+                
+            }    
+            .prof {
+                
+                /*
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(20px);
+                
+
+                width: 300px;
+                height: 190px;
+                */
+                
+                width: 280px;
+                height: 140px;
+                
+
+                border-radius: 8px;
+                margin-bottom: 10px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .profile {
+                width: 70px;
+                height: 70px;
+                
+                border-radius: 100%;
+                
+                border: 1px solid white;
+
+                background-image: url('NOKSIL04.png');
+                background-size: 75px 75px;
+                background-position: center;
+            }
+            .profile_name {
+                color: white;
+                font-size: 15px;
+                size: 15px;
+
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            .profile_cmt {
+                color: white;
+                font-size: 15px; 
+                margin-top: 0px;
+                margin-bottom: 8px;
+            }
+            .tag {
+                color: white;
+                font-size: 15px;
+                font-weight: 500;
+                size: 15px;
+
+                margin-top: 0px;
+                margin-bottom: 5px;
+            }
+            .profile_tags {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                gap: 13px;
+            }
+            .wrap {
+                width: 300px;
+                margin: 10px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+
+            
+            .big_btn > a {
+                width: 280px;
+                height: 35px;
+
+                border-radius: 12px ;
+                
+              
+               
+  
+                background: rgba(255, 255, 255, 0.0);
+                backdrop-filter: blur(3px);
+                -webkit-backdrop-filter: blur(3px); /*mac*/
+                -moz-backdrop-filter: blur(3px); /*파이어폭스*/
+                -o-backdrop-filter: blur(3px);  /*오페라*/
+
+                margin-bottom: 10px;
+
+                font-size: 15px;
+                /*
+                font-weight: bold;
+                */
+                color: white;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+                border: 1px solid white;
+            }
+            .source {
+                font-size: 15px;
+                color: white;
+                font-weight: 500;
+
+                margin-top: 8px;
+            }
+           
+            .big_btn > a:hover {
+                background-color: white;
+                color: #5b587b;
+            }
+            
+
+        }
+      }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="prof">
+                <div class="profile"></div>
+                <h1 class="profile_name">녹실</h1>
+                <!--
+                <p class="profile_cmt">디지털아트 디자이너</p>
+                -->
+                <div class="profile_tags">
+                    <p class="tag">#커버아트</p>
+                    <p class="tag">#디지털아트</p>
+                    <p class="tag">#일러스트</p>
+                </div>
+            </div>
+            <div class="big_btn">
+                <a target="_blank" href="https://ppaahh.creatorlink.net/">Portfolio</a>
+           
+                <a target="_blank" href="https://www.youtube.com/channel/UCs8Zif_1hua9u69_LM0Knhw">Youtube - 그림(상자영감)</a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCgFh9ojIbTwPzXtUlAjP3ug">Youtube - 영상(녹실)</a>
+                <a target="_blank" href="https://www.crowdpic.net/@noksil">Crowdpic</a>
+                <a target="_blank" href="https://a-bly.com/app/markets/20154">Store - Ably</a>
+                <a target="_blank" href="https://s.zigzag.kr/asAu0NFRK6">Store - Zigzag</a>
+                <a target="_blank" href="https://www.instagram.com/noksiill/">Instagram - 녹실</a>
+                <a target="_blank" href="https://www.instagram.com/ppaahh_/">Instagram - 개인</a>
+            </div>
+            <p class="source">made by 녹실 NOKSIL</p>
+        </div>
+        
+    </body>
+</html>
